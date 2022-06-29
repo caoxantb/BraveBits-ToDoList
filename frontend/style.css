@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
+
+body {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  /* height: 100vh; */
+  overflow-y: scroll;
+  margin: 50px 0;
+  font-family: "Gochi Hand", sans-serif;
+}
+
+.wrapper {
+  width: 800px;
+}
+
+#inputTask {
+  outline: none;
+  width: 600px;
+  height: 20px;
+  background-color: whitesmoke;
+  padding: 12px 12px 12px;
+  margin-right: 24px;
+  border: 1px solid transparent;
+  border-bottom-color: #ccc;
+}
+
+#inputTask:focus {
+  padding: 12px 12px 12px;
+  border-color: #0a9db7;
+  transition: 0.5s;
+}
+
+input[type="text"] {
+  font-family: "Gochi Hand", sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tip {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+button {
+  font-family: "Gochi Hand", sans-serif;
+  width: calc(100% - 660px);
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.listDiv {
+  margin-bottom: 40px;
+}
+
+.sleepyDiv {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin: 50px 0 20px 0;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  width: 800px;
+  display: flex;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid;
+  position: relative;
+  align-items: center;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  justify-content: space-between;
+  user-select: none;
+}
+
+li:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.sleepyDiv {
+  margin-top: 100px;
+}
+
+.checkbox {
+  margin: 0 20px;
+}
+
+.taskName {
+  width: 760px;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete {
+  font-size: 45px;
+  margin: 0 20px;
+}
+
+footer {
+  position: fixed;
+  font-size: 12px;
+  left: 0;
+  bottom: 0;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  background-color: whitesmoke;
+}
